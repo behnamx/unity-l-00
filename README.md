@@ -11,25 +11,13 @@ Tank Sprite that moves forward, reverses and turns.
 > - Skills gained: reading keyboard events, translating and rotating gameobject
 
 
-### Logic
+### Quick Start
 
-```flow
-st=>start: Sprite
-e=>end: Transformation
-op1=>operation: Update
-sub1=>subroutine: Check For Key Press
-cond=>condition: Key Press (W, A, S, D)
-c2=>condition: Good idea|rejected
-io=>inputoutput: catch something...|future
-op2=>operation: Rotation/Translation
+- [Download Unity 5.5.0](https://unity3d.com/get-unity/download/archive)
+- Clone the repo: `git clone https://github.com/behnamx/unity-l-00.git`
+- Open the project in Unity
+- Hit Play!
 
-
-st->op1(right)->cond->
-cond(yes)->op2
-cond(no)->op1
-
-
-```
 ### More Information
 
 > **Note:** You can find more information:
@@ -42,4 +30,3 @@ cond(no)->op1
   [2]: https://github.com/ataiya/igd/wiki/Lab00_TankMoving
   [3]: http://gfx.uvic.ca/people/ataiya/
   [4]: http://vcg.isti.cnr.it/~tarini/
-
